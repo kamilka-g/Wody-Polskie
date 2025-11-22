@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.App-header h1 {
+  margin: 0 0 15px 0;
+  font-size: 2em;
+}
+
+.scenario-selector {
+  margin-top: 10px;
+}
+
+.scenario-selector label {
+  margin-right: 10px;
+  font-size: 1.1em;
+}
+
+.scenario-selector select {
+  padding: 8px 15px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 120px);
+  font-size: 1.5em;
+  color: #666;
+}
+
+.popup-content h3 {
+  margin-top: 0;
+  color: #282c34;
+}
+
+.popup-content p {
+  margin: 5px 0;
+  text-align: left;
+}
+
+.popup-content strong {
+  color: #555;
+}
+
+.risk-low {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.risk-medium {
+  color: #ffc107;
+  font-weight: bold;
+}
+
+.risk-high {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.legend {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+.legend h4 {
+  margin: 0 0 10px 0;
+  color: #282c34;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  text-align: left;
+}
+
+.legend-color {
+  width: 30px;
+  height: 15px;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+.leaflet-container {
+  font-family: inherit;
+}
